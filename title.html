@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title>シンデレラ</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		h1{
+			background-color:rgb(255,255,255);
+		}
+		#novelwindow{
+			border:1px solid gray;
+			width:800px;
+			height:600px;
+			text-align:center;
+			background-image:url(image/earth.jpg);
+			background-size:800px 600px;
+		}
+		#novelwindow > h1{
+			margin-top:100px;
+			font-size:32pt;
+		}
+		#novelwindow > form > button{
+			width:200px;
+			height: 60px;
+			margin-bottom:10px;
+		}
+	</style>
+</head>
+<body>
+  <section id="novelwindow">
+  <h1>シンデレラ</h1>
+  
+  <form action="setup.html" method="GET">
+    <button>ニューゲーム</button>
+  </form>
+  <form action="novel.php" method="GET">
+    <button>ロード</button>
+  </form>
+  </section>
+</body>
+<html>
